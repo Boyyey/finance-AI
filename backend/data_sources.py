@@ -3,7 +3,7 @@ import requests
 import datetime
 import pandas as pd
 
-NEWS_API_KEY = '3811bc6249ca464995c0d7b856231fc1'  # Replace with your NewsAPI key
+NEWS_API_KEY = 'your_api_key'  # Replace with your NewsAPI key
 
 
 def fetch_stock_data(ticker, period='1y', interval='1d'):
