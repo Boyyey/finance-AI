@@ -1,0 +1,103 @@
+2025-07-16 11:37:03,502 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 11:37:03,502 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 11:37:03,527 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:37:05,629 WARNING  * Debugger is active!
+2025-07-16 11:37:05,647 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:37:45,279 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 11:37:45,280 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 11:37:45,299 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:37:47,682 WARNING  * Debugger is active!
+2025-07-16 11:37:47,692 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:38:16,267 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-07-16 11:38:17,094 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:38:19,275 WARNING  * Debugger is active!
+2025-07-16 11:38:19,284 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:38:44,774 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-07-16 11:38:44,786 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-07-16 11:38:44,797 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py', reloading
+2025-07-16 11:38:45,770 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:38:48,325 WARNING  * Debugger is active!
+2025-07-16 11:38:48,336 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:38:54,045 INFO 127.0.0.1 - - [16/Jul/2025 11:38:54] "GET /generate-data HTTP/1.1" 200 -
+2025-07-16 11:39:24,116 INFO Financial analysis performed: {"ratios": {"profit_margin": 0.25896320983154114, "debt_to_equity": 1.419924575812494, "return_on_equity": 0.07879989266921512, "current_ratio": 1.2483745779353128, "quick_ratio": 2.1228616511311182, "asset_turnover": 1.499624825893961}, "trend": "upward"}
+2025-07-16 11:39:24,117 INFO 127.0.0.1 - - [16/Jul/2025 11:39:24] "POST /analyze HTTP/1.1" 200 -
+2025-07-16 11:39:30,870 INFO Forecast performed: {"method": "arima", "forecast": [103.46366321409344, 103.31887267403309, 103.44965571199751, 103.33152504536645, 103.43822737172239]}
+2025-07-16 11:39:30,870 INFO 127.0.0.1 - - [16/Jul/2025 11:39:30] "POST /forecast?method=arima&steps=5 HTTP/1.1" 200 -
+2025-07-16 11:39:30,937 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scatter\\_mode.py', reloading
+2025-07-16 11:39:30,962 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scatter\\_name.py', reloading
+2025-07-16 11:39:30,985 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scatter\\_y.py', reloading
+2025-07-16 11:39:31,104 INFO  * Detected change in 'C:\\Users\\MEHR\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pandas\\core\\internals\\construction.py', reloading
+2025-07-16 11:39:31,778 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:39:35,121 WARNING  * Debugger is active!
+2025-07-16 11:39:35,127 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:39:39,837 INFO Sentiment analysis performed: {"avg_score": 0.0}
+2025-07-16 11:39:39,838 INFO 127.0.0.1 - - [16/Jul/2025 11:39:39] "POST /sentiment HTTP/1.1" 200 -
+2025-07-16 11:39:47,266 INFO Risk metrics calculated: {"volatility": 0.15492021730379746, "drawdown": 0.02578922780474221, "sharpe": 1.6877062373389855}
+2025-07-16 11:39:47,266 INFO 127.0.0.1 - - [16/Jul/2025 11:39:47] "POST /risk HTTP/1.1" 200 -
+2025-07-16 11:39:52,163 INFO Portfolio optimized: {"weights": {"AAPL": 0.021865096800681102, "GOOG": 0.003286897082263472, "TSLA": 0.9748480061170552}, "risk_aversion": 0.9}
+2025-07-16 11:39:52,164 INFO 127.0.0.1 - - [16/Jul/2025 11:39:52] "POST /optimize?risk_aversion=0.9 HTTP/1.1" 200 -
+2025-07-16 11:42:20,945 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 11:42:20,946 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 11:42:20,992 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:42:24,109 WARNING  * Debugger is active!
+2025-07-16 11:42:24,120 INFO  * Debugger PIN: 115-804-245
+2025-07-16 11:42:53,139 INFO 127.0.0.1 - - [16/Jul/2025 11:42:53] "GET /generate-data HTTP/1.1" 200 -
+2025-07-16 11:43:02,860 INFO Financial analysis performed: {"ratios": {"profit_margin": 0.04979570090455726, "debt_to_equity": 0.5361473448585219, "return_on_equity": 0.05166667948929729, "current_ratio": 2.947755627096305, "quick_ratio": 2.475752993038755, "asset_turnover": 1.253450508772659}, "trend": "stable"}
+2025-07-16 11:43:02,861 INFO 127.0.0.1 - - [16/Jul/2025 11:43:02] "POST /analyze HTTP/1.1" 200 -
+2025-07-16 11:43:11,109 INFO Forecast performed: {"method": "arima", "forecast": [101.79694453051795, 101.84817697184526, 101.8069664651138, 101.84011549766163, 101.81345097819775, 101.83489946533575, 101.81764666611947, 101.83152452514432]}
+2025-07-16 11:43:11,109 INFO 127.0.0.1 - - [16/Jul/2025 11:43:11] "POST /forecast?method=arima&steps=8 HTTP/1.1" 200 -
+2025-07-16 11:43:45,249 INFO Sentiment analysis performed: {"avg_score": 0.0}
+2025-07-16 11:43:45,250 INFO 127.0.0.1 - - [16/Jul/2025 11:43:45] "POST /sentiment HTTP/1.1" 200 -
+2025-07-16 11:43:52,268 INFO Risk metrics calculated: {"volatility": 0.1640820120874362, "drawdown": 0.04809199345879848, "sharpe": 1.137787499091874}
+2025-07-16 11:43:52,268 INFO 127.0.0.1 - - [16/Jul/2025 11:43:52] "POST /risk HTTP/1.1" 200 -
+2025-07-16 11:44:00,062 INFO Portfolio optimized: {"weights": {"AAPL": 0.06500879938960932, "GOOG": 0.25951099074858824, "TSLA": 0.6754802098618025}, "risk_aversion": 0.62}
+2025-07-16 11:44:00,062 INFO 127.0.0.1 - - [16/Jul/2025 11:44:00] "POST /optimize?risk_aversion=0.62 HTTP/1.1" 200 -
+2025-07-16 11:59:07,174 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 11:59:07,174 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 11:59:07,191 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 11:59:19,106 WARNING  * Debugger is active!
+2025-07-16 11:59:19,116 INFO  * Debugger PIN: 115-804-245
+2025-07-16 12:00:24,747 INFO 127.0.0.1 - - [16/Jul/2025 12:00:24] "GET /stock?ticker=AAPL&period=1y&interval=1d HTTP/1.1" 200 -
+2025-07-16 12:00:34,645 INFO 127.0.0.1 - - [16/Jul/2025 12:00:34] "GET /news?query=stock+market&page_size=5 HTTP/1.1" 200 -
+2025-07-16 12:00:48,019 INFO 127.0.0.1 - - [16/Jul/2025 12:00:48] "GET /sec-filings?ticker=AAPL HTTP/1.1" 200 -
+2025-07-16 12:00:56,858 INFO 127.0.0.1 - - [16/Jul/2025 12:00:56] "GET /sec-filings?ticker=AAPL HTTP/1.1" 200 -
+2025-07-16 12:01:05,542 INFO 127.0.0.1 - - [16/Jul/2025 12:01:05] "GET /stock?ticker=AAPL&period=1y&interval=1d HTTP/1.1" 200 -
+2025-07-16 12:06:54,051 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 12:06:54,052 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 12:06:54,061 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 12:07:07,473 WARNING  * Debugger is active!
+2025-07-16 12:07:07,485 INFO  * Debugger PIN: 115-804-245
+2025-07-16 12:08:03,387 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 12:08:03,387 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 12:08:03,404 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 12:08:14,481 WARNING  * Debugger is active!
+2025-07-16 12:08:14,488 INFO  * Debugger PIN: 115-804-245
+2025-07-16 12:08:33,952 INFO 127.0.0.1 - - [16/Jul/2025 12:08:33] "GET /stock?ticker=AAPL&period=1y&interval=1d HTTP/1.1" 200 -
+2025-07-16 12:08:41,181 INFO 127.0.0.1 - - [16/Jul/2025 12:08:41] "GET /news?query=stock+market&page_size=5 HTTP/1.1" 200 -
+2025-07-16 12:08:45,108 INFO 127.0.0.1 - - [16/Jul/2025 12:08:45] "GET /sec-filings?ticker=AAPL HTTP/1.1" 200 -
+2025-07-16 12:09:40,320 INFO 127.0.0.1 - - [16/Jul/2025 12:09:40] "GET /stock?ticker=AAPL&period=1y&interval=1d HTTP/1.1" 200 -
+2025-07-16 12:13:36,991 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-16 12:13:36,991 INFO [33mPress CTRL+C to quit[0m
+2025-07-16 12:13:37,019 INFO  * Restarting with watchdog (windowsapi)
+2025-07-16 12:13:47,930 WARNING  * Debugger is active!
+2025-07-16 12:13:47,941 INFO  * Debugger PIN: 115-804-245
+2025-07-16 12:14:23,053 INFO 127.0.0.1 - - [16/Jul/2025 12:14:23] "GET /stock?ticker=AAPL&period=1y&interval=1d HTTP/1.1" 200 -
+2025-07-16 12:14:52,279 INFO 127.0.0.1 - - [16/Jul/2025 12:14:52] "GET /news?query=stock+market&page_size=5 HTTP/1.1" 200 -
+2025-07-16 12:15:22,414 INFO 127.0.0.1 - - [16/Jul/2025 12:15:22] "GET /sec-filings?ticker=AAPL HTTP/1.1" 200 -
+2025-07-16 12:16:56,187 INFO Financial analysis performed: {"ratios": {"profit_margin": 0.0, "debt_to_equity": 1.1540465013291552, "return_on_equity": 0.19424697397192547, "current_ratio": 1.9712511833113169, "quick_ratio": 1.5556429592444017, "asset_turnover": 1.0502439928351877}, "trend": "stable"}
+2025-07-16 12:16:56,188 INFO 127.0.0.1 - - [16/Jul/2025 12:16:56] "POST /analyze HTTP/1.1" 200 -
+2025-07-16 12:17:01,406 INFO Forecast performed: {"method": "arima", "forecast": [209.06658121470622, 209.10031255932068, 209.07410759740011, 209.09446551781826, 209.07865000451937]}
+2025-07-16 12:17:01,406 INFO 127.0.0.1 - - [16/Jul/2025 12:17:01] "POST /forecast?method=arima&steps=5 HTTP/1.1" 200 -
+2025-07-16 12:17:23,136 INFO Sentiment analysis performed: {"avg_score": 0}
+2025-07-16 12:17:23,136 INFO 127.0.0.1 - - [16/Jul/2025 12:17:23] "POST /sentiment HTTP/1.1" 200 -
+2025-07-16 12:17:32,177 INFO Risk metrics calculated: {"volatility": 0.3193442313434226, "drawdown": 0.33360518814967316, "sharpe": -0.22592510550244957}
+2025-07-16 12:17:32,177 INFO 127.0.0.1 - - [16/Jul/2025 12:17:32] "POST /risk HTTP/1.1" 200 -
+2025-07-16 12:17:38,531 INFO Portfolio optimized: {"weights": {"AAPL": 1.0}, "risk_aversion": 0.5}
+2025-07-16 12:17:38,531 INFO 127.0.0.1 - - [16/Jul/2025 12:17:38] "POST /optimize?risk_aversion=0.5 HTTP/1.1" 200 -

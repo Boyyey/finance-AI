@@ -1,0 +1,11 @@
+flask
+numpy
+pandas
+statsmodels
+yfinance
+requests
+openai
+prophet
+xgboost
+shap
+eli5 
